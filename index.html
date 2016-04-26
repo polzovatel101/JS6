@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="carousel-left">
+    <span>Влево</span>
+</div>
+<div class="carousel">
+    <ul class="carousel-list">
+        <li class="carousel-element"><img src="img/1.png" alt="photo">
+            <p>Описание 1</p>
+        </li>
+        <li class="carousel-element"><img src="img/2.png" alt="photo">
+            <p>Описание 2</p>
+        </li>
+        <li class="carousel-element"><img src="img/3.jpg" alt="photo">
+            <p>Описание 3</p>
+        </li>
+        <li class="carousel-element"><img src="img/4.png" alt="photo">
+            <p>Описание 4</p>
+        </li>
+        <li class="carousel-element"><img src="img/5.png" alt="photo">
+            <p>Описание 5</p>
+        </li>
+        <li class="carousel-element"><img src="img/6.png" alt="photo">
+            <p>Описание 6</p>
+        </li>
+        <li class="carousel-element"><img src="img/1.png" alt="photo">
+            <p>Описание 7</p>
+        </li>
+        <li class="carousel-element"><img src="img/2.png" alt="photo">
+            <p>Описание 8</p>
+        </li>
+    </ul>
+</div>
+<div class="carousel-right">
+    <span>Вправо</span>
+</div>
+<div class="plugin">
+    <script src="../jquery-1.12.2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.3.0/lodash.js"></script>
+    <script src="js/script.js"></script>
+
+    <!-- шаблон для списка от 1 до count -->
+    <script type="text/html" id="list-template">
+    <ul>
+    <% for (var i=1; i<=count; i++) { %>
+    <li><%=i%></li>
+    <% } %>
+    </ul>
+    </script>
+</div>
+</body>
+</html>
