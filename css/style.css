@@ -35,6 +35,9 @@
 
 .carousel-right{
     float: right;
+    position: absolute;
+    right: 370px;
+    top: 10px;
 }
 
 .carousel-left:hover, .carousel-right:hover {
