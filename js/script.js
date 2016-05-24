@@ -28,7 +28,7 @@ $(function() {
 
 });
 
-var tmpl = _.template(document.getElementById('list-template'));
+var tmpl = _.template(document.getElementById('list-template').innerHTML);
 
 // ..а вот и результат
 var result = tmpl({count: 5});
